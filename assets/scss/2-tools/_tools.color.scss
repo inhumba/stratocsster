@@ -1,0 +1,101 @@
+/* ==========================================================================
+   #COLOR
+   ========================================================================== */
+
+
+/**
+ * Global Color
+ */
+
+$primary-color: palette-color("tokio", "primary");
+$secondary-color: palette-color("tokio", "secondary");
+$highlight-color: palette-color("tokio", "highlight");
+$black-color: palette-color("tokio", "black");
+$font-black-color: palette-color("tokio", "font-black");
+$drak-gray-color: palette-color("tokio", "drak-gray");
+$secondary-gray-color: palette-color("tokio", "secondary-gray");
+$light-gray-color: palette-color("tokio", "light-gray");
+$global-border-color: palette-color("tokio", "border-gray");
+$body-background-color: palette-color("tokio", "bg-color");
+
+/**
+ * Heading color
+ */
+
+$heading-font-color: $secondary-color;
+
+/**
+ * Base (body) color
+ */
+
+$base-font-color: palette-color("tokio", "font-black");
+
+/**
+ * Link color
+ */
+
+$link-font-color: $primary-color;
+$link-font-color--hover: darken($primary-color, 7%);
+
+/**
+ * Table color
+ */
+
+$table-border-color: $global-border-color;
+$table-font-color: $base-font-color;
+$table-headings-font-color: $heading-font-color;
+// $table-background-striped: palette-color("lucky", "mauve");
+
+/**
+ * Form color
+ */
+
+$input-border-color: $global-border-color;
+$input-background-color: #fff;
+$input-font-color: $base-font-color;
+
+/**
+ * Placeholder color
+ */
+
+$placeholder-font-color: darken($global-border-color, 100%);
+
+/**
+ * Button color
+ */
+
+$button-border-color: $global-border-color;
+$button-background-color: #fff;
+$button-font-color: $base-font-color;
+
+/**
+ * Selection background color
+ */
+
+$selection-background-color: lighten($primary-color, 20%);
+
+/**
+ * Outline ring color
+ */
+
+$outline-color: lighten($primary-color, 20%);
+
+/**
+ * Blockquote color
+ */
+
+$blockquote-font-color: palette-color("tokio", "black");
+$blockquote-background-color: palette-color("tokio", "secondary-gray");
+
+/**
+ * Mark color
+ */
+
+$mark-font-color: #fff;
+$mark-background-color: $primary-color;
+
+/**
+ * Horizontal Rule color
+ */
+
+$hr-color: $global-border-color;
